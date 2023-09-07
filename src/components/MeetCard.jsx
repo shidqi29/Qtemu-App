@@ -22,7 +22,7 @@ const MeetCard = ({ meetup }) => {
               <div>
                 <p>{meet.location}</p>
                 <p>{meet.members}</p>
-                <p>{meet.organizer}</p>
+                <p>{meet.organizer.name}</p>
               </div>
             </div>
             <div className="card-actions">
