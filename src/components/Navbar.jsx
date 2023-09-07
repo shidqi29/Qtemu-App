@@ -41,11 +41,17 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="drawer-side">
+          <div className="drawer-side z-50">
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-            <ul className="menu min-h-full w-80 gap-2 bg-base-200 pt-10">
+            <ul className="menu min-h-full w-80 gap-2 bg-base-200">
+              <NavLink
+                className="btn btn-ghost pb-5 text-2xl font-bold normal-case"
+                to="/"
+              >
+                Qtemu
+              </NavLink>
               {navigation.map((item) => (
-                <li key={item.name}>
+                <li key={item.name} className="border-b">
                   <NavLink to={item.to} className="btn btn-ghost">
                     {item.name}
                   </NavLink>
