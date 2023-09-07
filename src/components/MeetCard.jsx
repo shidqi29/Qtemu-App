@@ -5,7 +5,7 @@ const MeetCard = ({ meetup }) => {
     <>
       {meetup.map((meet) => (
         <div
-          className="card mb-5 flex flex-col gap-5 bg-base-300 p-2 shadow-lg sm:card-side"
+          className="card mb-5  gap-5 bg-base-300 p-2 shadow-lg sm:card-side"
           key={meet.id}
         >
           <figure>

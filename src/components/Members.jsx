@@ -5,7 +5,7 @@ const Members = ({ meetup }) => {
       {meetup.map((meet) => (
         <div
           key={meet.id}
-          className="card mb-5 flex flex-col gap-5 bg-base-300 p-2 shadow-lg sm:card-side"
+          className="card mb-5 flex-row gap-5 bg-base-300 p-2 shadow-lg "
         >
           <figure>
             <img
