@@ -6,7 +6,7 @@ export const meetup = [
     date: "1 September 2023",
     members: 10,
     organizer: "Shidqi Amirul Haq",
-    description: "Come and meet other developers in the javascript community.",
+    description: `Adipisicing in culpa quis excepteur quis. Tempor eu elit dolore laboris aliquip amet adipisicing occaecat reprehenderit. Ex officia consectetur minim pariatur aliquip amet. Sit aute adipisicing eu veniam voluptate consectetur consequat quis laboris fugiat amet ullamco ut culpa. In aliqua id eiusmod adipisicing aliquip. Veniam enim excepteur adipisicing proident. Nisi deserunt in ex sint ad ullamco pariatur in ad adipisicing incididunt deserunt amet pariatur. Nisi occaecat nisi cupidatat reprehenderit excepteur veniam esse aliqua non quis Lorem. Tempor voluptate enim ut duis proident tempor elit veniam labore minim. Nisi nostrud adipisicing laboris aute ullamco adipisicing pariatur culpa nisi ex. Et elit duis excepteur mollit eu commodo veniam.`,
     image: "https://picsum.photos/200",
   },
   {
