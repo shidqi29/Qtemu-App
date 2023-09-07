@@ -43,7 +43,28 @@ const Navbar = () => {
           </div>
           <div className="drawer-side z-50">
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
+            
             <ul className="menu min-h-full w-80 gap-2 bg-base-200">
+            <div className="flex-none md:hidden">
+                <label
+                  htmlFor="my-drawer-3"
+                  className="btn btn-square btn-ghost"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    className="inline-block h-6 w-6 stroke-current"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    ></path>
+                  </svg>
+                </label>
+              </div>
               <NavLink
                 className="btn btn-ghost pb-5 text-2xl font-bold normal-case"
                 to="/"
